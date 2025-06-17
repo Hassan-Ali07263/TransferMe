@@ -1,0 +1,24 @@
+const url = "http://192.168.100.10:5000";
+
+export const register = url + "/register";
+export const saveProfile = url + "/saveProfile";
+export const sendOtp = url + "/sendOtp";
+export const verifyOtp = url + "/verifyOtp";
+export const saveSecurityData = url + "/saveSecurityData";
+export const countQuestion = url + "/countQuestion";
+export const signupPin = url + "/createPin";
+export const loginPin = url + "/loginPin";
+export const loginApi = url + "/login";
+export const intializaMoney = url + "/totalMoney";
+export const getMoney = url + "/getMoney";
+export const sendAmount = url + "/sendMoney";
+export const outgoingHistory = url + "/outgoingHistory";
+export const incomingHistory = url + "/incomingHistory";
+export const cardData = url + "/addCard";
+export const getCardData = url + "/getCards";
+export const getProfileData = url + "/profileData";
+export const updateProfile = url + "/updateProfile";
+export const updationOtpVerify = url + "/updationOtpVerify";
+export const updationOtp = url + "/updationOtp";
+export const updatePin = url + "/updatePin";
+export const updatePassword = url + "/updatePassword";
